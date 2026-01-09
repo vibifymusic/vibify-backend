@@ -10,8 +10,5 @@ export default async function handler(req, res) {
   }
 
   return res.status(200).json({
-    success: true,
-    audio_url: "https://example.com/fake-audio.mp3",
-    message: "Music generated (fake output for now)"
-  });
-}
+  audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+});
